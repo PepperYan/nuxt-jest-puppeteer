@@ -7,12 +7,17 @@ thanks for Studbits :)
 
 [English Edition Doc](https://github.com/studbits/nuxt-jest-puppeteer)
 
-# 安装
+# 快速开始
 
+## 安装
+1. 通过npm或yarn安装测试工具
 ```bash
-npm install nuxt-puppeteer-jest --save-dev
-
+  npm install nuxt-puppeteer-jest --save-dev
+  yarn add -D nuxt-puppeteer-jest
 ```
+2. 在项目跟目录下创建`test`文件夹
+3. 在`test`文件夹下添加测试用例文件, 文件名格式为 **模块名.test.js**.
+4. 参照 `配置` 和 `使用方法` 进行配置和用例编写 
 
 # 配置
 
